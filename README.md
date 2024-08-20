@@ -10,7 +10,7 @@ For the execution of mentioned steps, three different environments have been use
 
 
 
-Extract 3-Channel Optical flow Frames
+## **Extract 3-Channel Optical flow Frames**
 
 download UCF50 dataset from "https://www.crcv.ucf.edu/data/UCF50.php" 
 download JHMDB dataset from "http://jhmdb.is.tue.mpg.de/challenge/JHMDB/datasets" and place under
@@ -32,7 +32,7 @@ Above code will create a directory "UCF50-OP/flows/jpg" in my_data containing 3-
 Do the same for JHMDB and Penn action dataset. For these dataset we need to change the path in computeBroxFlows.py that is available in home/WT/my_model/my_Scripts/flow_toolbox-master
 
 
-Extract 3-channel key flow frames
+## **Extract 3-channel key flow frames**
 
 Execute the following command to execute docker container
 
@@ -48,7 +48,7 @@ rename key-flow images to be in sequence, execute "home/WT/my_model/my_Scripts/k
 
 
 
-Prepare Data for training using 3D-CNN
+## **Prepare Data for training using 3D-CNN**
 
 Copy "../../my_data/UCF50-OP/key_flows/jpg" to /home/ltc-master/datasets as UCF50/rgb/jpg
 
@@ -58,7 +58,7 @@ create folder splits in /home/ltc-master/datasets/UCF50 and then from ltc-master
 
 
 
-Train LTC-model with 16 initial Key flow frames
+## **Train LTC-model with 16 initial Key flow frames**
 
 Execute the following command to execute docker container
 
