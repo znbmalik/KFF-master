@@ -1,0 +1,15 @@
+baseballpitch
+baseballswing
+benchpress
+bowl
+cleanandjerk
+golfswing
+jumpingjacks
+jumprope
+pullup
+pushup
+situp
+squat
+strumguitar
+tennisforehand
+tennisserve
